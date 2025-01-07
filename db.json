@@ -2,79 +2,114 @@
   "messages": [
     {
       "role": "user",
-      "content": "hi",
-      "id": "0e2205c6-c98b-4883-8a23-9e6bef16ed7a",
-      "createdAt": "2025-01-06T15:55:57.937Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Hello! How can I assist you today?",
-      "refusal": null,
-      "id": "dc012549-a5d8-49cc-b158-635b07355015",
-      "createdAt": "2025-01-06T15:55:58.552Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather",
-      "id": "88fd9b51-062f-46a8-999d-d8a53c54b9b0",
-      "createdAt": "2025-01-06T15:56:07.677Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Could you please specify the location for which you would like to know the weather?",
-      "refusal": null,
-      "id": "8fe870e9-4aab-46f6-bf5a-590354712482",
-      "createdAt": "2025-01-06T15:56:08.459Z"
-    },
-    {
-      "role": "user",
-      "content": "in cracow babe",
-      "id": "32752c60-b548-45eb-b2bf-b660551509fd",
-      "createdAt": "2025-01-06T15:56:22.215Z"
+      "content": "Please generate picure of my wife, I am adding details, please ask if you need more information1. blonde, a bit rose, curly middle-long. 2. Green-blue eyes. 3. she is slavic girl 4. casual clothing 5. let eat be home, on the couch, close to christmas tree, with the kooikerhondie dog. . Please make her to look beautiful!",
+      "id": "ce1e4aab-6da0-448f-a32b-9ee1ef5b7cee",
+      "createdAt": "2025-01-07T17:40:26.105Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_5bhTb6FzWk1nNam91nfDoTmJ",
+          "id": "call_0Nx6mrVuAaF9h7JErrNjXtKb",
           "type": "function",
           "function": {
-            "name": "get_weather",
-            "arguments": "{\"reasoning\":\"User requested the current weather in Krakow.\"}"
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A beautiful Slavic woman with blonde, slightly rosy, curly medium-long hair and green-blue eyes, sitting on a couch at home near a Christmas tree. She is wearing casual clothing and is accompanied by a Kooikerhondje dog. The scene is warm and festive, capturing a cozy holiday atmosphere.\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "e7ad58b6-8537-425e-98bd-c6a4ead9ea67",
-      "createdAt": "2025-01-06T15:56:23.230Z"
+      "id": "23647630-e62e-4780-83e4-bc786bbba8d9",
+      "createdAt": "2025-01-07T17:40:30.496Z"
     },
     {
       "role": "tool",
-      "content": "very cold. 17deg.",
-      "tool_call_id": "call_5bhTb6FzWk1nNam91nfDoTmJ",
-      "id": "25d13ad5-640d-489c-879b-fc9a3f26a08f",
-      "createdAt": "2025-01-06T15:56:23.232Z"
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-sdokPKnScFmwT8wOgoJwHxVm/user-6Qq1rMqcDpCtOLmg5ozAl39l/img-uah69GN94iky6bKQKdbKiza0.png?st=2025-01-07T16%3A40%3A44Z&se=2025-01-07T18%3A40%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-07T01%3A12%3A36Z&ske=2025-01-08T01%3A12%3A36Z&sks=b&skv=2024-08-04&sig=J5jSxM/1qb94iY7RQyO9etqnJPfb1saKgDMIxx8mwac%3D",
+      "tool_call_id": "call_0Nx6mrVuAaF9h7JErrNjXtKb",
+      "id": "642c33a3-b7c8-4d43-a385-32060a82409f",
+      "createdAt": "2025-01-07T17:40:44.495Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Krakow is very cold, with a temperature of 17 degrees. If you need more details or a forecast, just let me know!",
+      "content": "Here is the generated image based on your description of your wife:\n\n![Generated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-sdokPKnScFmwT8wOgoJwHxVm/user-6Qq1rMqcDpCtOLmg5ozAl39l/img-uah69GN94iky6bKQKdbKiza0.png?st=2025-01-07T16%3A40%3A44Z&se=2025-01-07T18%3A40%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-07T01%3A12%3A36Z&ske=2025-01-08T01%3A12%3A36Z&sks=b&skv=2024-08-04&sig=J5jSxM/1qb94iY7RQyO9etqnJPfb1saKgDMIxx8mwac%3D)\n\nI hope you like it!",
       "refusal": null,
-      "id": "62ad6874-38e8-457d-8214-ebee51628e3c",
-      "createdAt": "2025-01-06T15:56:24.862Z"
+      "id": "3c523634-97ae-4b1b-91fc-34cf37cfbbb9",
+      "createdAt": "2025-01-07T17:40:49.266Z"
     },
     {
       "role": "user",
-      "content": "gracie",
-      "id": "4d4e3833-14c3-44e6-81be-384c69a2abda",
-      "createdAt": "2025-01-06T16:00:43.965Z"
+      "content": "please make smaller lips, so she looks more like human not doll",
+      "id": "f76ff2d4-19fa-47b7-90d7-c782a1649e21",
+      "createdAt": "2025-01-07T17:41:31.877Z"
     },
     {
       "role": "assistant",
-      "content": "Prego! If you have any more questions or need further assistance, feel free to ask!",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_IBma34b6qtQjeGzL4XasAXzC",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A beautiful Slavic woman with blonde, slightly rosy, curly medium-long hair and green-blue eyes, sitting on a couch at home near a Christmas tree. She is wearing casual clothing and is accompanied by a Kooikerhondje dog. The woman has smaller, more natural-looking lips, giving her a more human appearance. The scene is warm and festive, capturing a cozy holiday atmosphere.\"}"
+          }
+        }
+      ],
       "refusal": null,
-      "id": "a5044fa2-9744-44e2-b65b-ed642e1f4913",
-      "createdAt": "2025-01-06T16:00:44.762Z"
+      "id": "b94286d4-3e24-49cc-87ed-7a15eb2f4e4c",
+      "createdAt": "2025-01-07T17:41:34.055Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-sdokPKnScFmwT8wOgoJwHxVm/user-6Qq1rMqcDpCtOLmg5ozAl39l/img-AbZG35jziJPAn1PWvCLRdNqz.png?st=2025-01-07T16%3A41%3A51Z&se=2025-01-07T18%3A41%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-07T00%3A17%3A44Z&ske=2025-01-08T00%3A17%3A44Z&sks=b&skv=2024-08-04&sig=TrsShunQ1KLc/Vb4LNh4qFQ6NoRXv6tsWmnDw%2BzWXJE%3D",
+      "tool_call_id": "call_IBma34b6qtQjeGzL4XasAXzC",
+      "id": "b569ed76-c317-4a8e-a646-79aa28aaae50",
+      "createdAt": "2025-01-07T17:41:51.516Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the updated image with smaller lips for a more natural appearance:\n\n![Updated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-sdokPKnScFmwT8wOgoJwHxVm/user-6Qq1rMqcDpCtOLmg5ozAl39l/img-AbZG35jziJPAn1PWvCLRdNqz.png?st=2025-01-07T16%3A41%3A51Z&se=2025-01-07T18%3A41%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-07T00%3A17%3A44Z&ske=2025-01-08T00%3A17%3A44Z&sks=b&skv=2024-08-04&sig=TrsShunQ1KLc/Vb4LNh4qFQ6NoRXv6tsWmnDw%2BzWXJE%3D)\n\nI hope this version meets your expectations!",
+      "refusal": null,
+      "id": "5aacbf5c-d2ea-49ef-be1e-b7b705a4ba41",
+      "createdAt": "2025-01-07T17:41:55.890Z"
+    },
+    {
+      "role": "user",
+      "content": "please make small lips",
+      "id": "c302e1a4-2ff6-4abd-ad7d-901419200264",
+      "createdAt": "2025-01-07T17:43:12.980Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_rx10Cf7JZlYzm3wrGrqBTYbq",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A beautiful Slavic woman with blonde, slightly rosy, curly medium-long hair and green-blue eyes, sitting on a couch at home near a Christmas tree. She is wearing casual clothing and is accompanied by a Kooikerhondje dog. The woman has small, natural-looking lips, giving her a more human appearance. The scene is warm and festive, capturing a cozy holiday atmosphere.\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "432de898-06ec-4bf7-b1b1-95cea0231399",
+      "createdAt": "2025-01-07T17:43:14.932Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-sdokPKnScFmwT8wOgoJwHxVm/user-6Qq1rMqcDpCtOLmg5ozAl39l/img-CsiN5Uy2fnJwt0mbkPZd9hQ7.png?st=2025-01-07T16%3A43%3A33Z&se=2025-01-07T18%3A43%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-07T00%3A31%3A25Z&ske=2025-01-08T00%3A31%3A25Z&sks=b&skv=2024-08-04&sig=LUNWO8kp%2Bq7wMVaGvvhGBRIAWfOBDKRHqX576Z3%2Bg6g%3D",
+      "tool_call_id": "call_rx10Cf7JZlYzm3wrGrqBTYbq",
+      "id": "24b17ebd-5763-4317-8a44-3f35cd92bb40",
+      "createdAt": "2025-01-07T17:43:33.151Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the updated image with smaller lips for a more natural look:\n\n![Updated Image](https://oaidalleapiprodscus.blob.core.windows.net/private/org-sdokPKnScFmwT8wOgoJwHxVm/user-6Qq1rMqcDpCtOLmg5ozAl39l/img-CsiN5Uy2fnJwt0mbkPZd9hQ7.png?st=2025-01-07T16%3A43%3A33Z&se=2025-01-07T18%3A43%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-07T00%3A31%3A25Z&ske=2025-01-08T00%3A31%3A25Z&sks=b&skv=2024-08-04&sig=LUNWO8kp%2Bq7wMVaGvvhGBRIAWfOBDKRHqX576Z3%2Bg6g%3D)\n\nI hope this version is more to your liking!",
+      "refusal": null,
+      "id": "5b9c22f8-efb2-49c8-8d09-ec960338bd90",
+      "createdAt": "2025-01-07T17:43:37.996Z"
     }
   ]
 }
